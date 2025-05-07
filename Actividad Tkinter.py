@@ -1,9 +1,16 @@
-# Programa 1: Version original
+
+#Hecho por Jeshua Cruz Cardel En pydroid 3 de dispositivos móviles 
+
+
 
 #Ejecutar el problema elegido por separado ya que tkinter solo permite un tk por ejecucion
 
 #Hasta el final hay una pequeña lista de colores para intercambiar(en el 3er programa).Para cambiar los colores es cuestion de sustituir el color, por ejemplo: (ligthblue).Combiarlo por el color de tu preferencia escrito hasta el final. Es obligatorio cambiar todos los comandos de colores 
+
 #¡IMPORTANTE AGREGAR "import tkinter as tk" EN EL ALGORITMO SELECCIONADO 
+
+# Programa 1: Version original
+
 import tkinter as tk
 
 def saludar_v1():
@@ -79,6 +86,9 @@ resultado_v3 = tk.Label(ventana3, text="", bg="lightblue")
 resultado_v3.pack()
 tk.Label(ventana3, text="Autor: Tu Nombre", bg="lightblue").pack(side="bottom")
 
+#Agregar el comando para el tercer programa y agregar la librería 
+#ventana3.mainloop()
+
 #lightblue
 #lightgreen
 #lightyellow
@@ -95,5 +105,4 @@ tk.Label(ventana3, text="Autor: Tu Nombre", bg="lightblue").pack(side="bottom")
 #gold
 
 
-#Agregar el comando para el tercer programa y agregar la librería 
-#ventana3.mainloop()
+
