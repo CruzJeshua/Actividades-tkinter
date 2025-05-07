@@ -3,7 +3,7 @@
 #Ejecutar el problema elegido por separado ya que tkinter solo permite un tk por ejecucion
 
 #Hasta el final hay una pequeña lista de colores para intercambiar(en el 3er programa).Para cambiar los colores es cuestion de sustituir el color, por ejemplo: (ligthblue).Combiarlo por el color de tu preferencia escrito hasta el final. Es obligatorio cambiar todos los comandos de colores 
-
+#¡IMPORTANTE AGREGAR "import tkinter as tk" EN EL ALGORITMO SELECCIONADO 
 import tkinter as tk
 
 def saludar_v1():
@@ -21,7 +21,7 @@ tk.Button(ventana1, text="Saludar", command=saludar_v1).pack()
 resultado_v1 = tk.Label(ventana1, text="")
 resultado_v1.pack()
 
-#Agregar el comando para el primer programa y borrar los demas 
+#Agregar el comando para el primer programa y agregar la librería 
 #ventana1.mainloop()
 
 
@@ -49,7 +49,7 @@ resultado_v2 = tk.Label(ventana2, text="")
 resultado_v2.pack()
 
 
-#Agregar el comando para el segundo programa y borrar los demas 
+#Agregar el comando para el segundo programa y agregar la librería 
 #ventana2.mainloop()
 
 
@@ -95,5 +95,5 @@ tk.Label(ventana3, text="Autor: Tu Nombre", bg="lightblue").pack(side="bottom")
 #gold
 
 
-#Agregar el comando para el tercer programa y borrar los demas 
+#Agregar el comando para el tercer programa y agregar la librería 
 #ventana3.mainloop()
